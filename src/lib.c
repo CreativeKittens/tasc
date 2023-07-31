@@ -24,10 +24,8 @@ char *get_string(char *prompt) {
   }
 
   clear_input_buffer();
-
   printf("%s", prompt);
-  scanf("%[^\n]%*c", s);
-
+  scanf("%[^\n]", s);
   return s;
 }
 
@@ -49,5 +47,3 @@ char *id_generator() {
 
   return id;
 }
-
-// char *tasktoid() {}

@@ -7,6 +7,8 @@ typedef struct Task {
 } Task;
 
 int show_menu();
+int display_task();
+
 int show_task();
 int add_task();
 int del_task();
